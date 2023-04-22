@@ -96,7 +96,7 @@ modules:
           type: anitya
           project-id: 15187
           stable-only: true
-          versions: {<: '21'}
+          versions: {<: '1.21'}
           url-template: https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-$version.tar.xz
 
   - name: libgme
