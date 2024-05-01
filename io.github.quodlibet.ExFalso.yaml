@@ -68,7 +68,7 @@ modules:
       - /share/ffmpeg
 
   - name: chromaprint
-    buildsystem: cmake
+    buildsystem: cmake-ninja
     config-opts:
       - -DCMAKE_BUILD_TYPE=Release
       - -DBUILD_TESTS=off
@@ -97,7 +97,7 @@ modules:
           url-template: https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-$version.tar.xz
 
   - name: libgme
-    buildsystem: cmake
+    buildsystem: cmake-ninja
     sources:
       - type: archive
         url: https://bitbucket.org/mpyne/game-music-emu/downloads/game-music-emu-0.6.3.tar.xz
